@@ -19,6 +19,4 @@ for i in range (1,10001):
         a+=int(str(i)[j]) # 생성자로 d(n) 생성
     for j in range(len(nums)):
         if a==nums[j]:
-            try:
-                nums.remove(nums[j]) # d(n)이 num에 있다면 삭제
-            try:
+            
